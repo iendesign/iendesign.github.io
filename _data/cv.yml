@@ -74,7 +74,7 @@ cv:
         location: ""
         start_date: "2020-12"
         end_date: "2022-04"
-        summary: Finished and shipped Tom Clancy's Rainbow Six: Extraction with a team of 3 Level Designers.
+        summary: "Finished and shipped Tom Clancy's Rainbow Six: Extraction with a team of 3 Level Designers."
         highlights:
           - Triaged, assigned and fixed Quality and Design issues to ensure a qualitative Release.
           - Collaborated with multiple studios to ensure fixes were applied project-wide
