@@ -2,7 +2,7 @@ cv:
   name: Ionica Eugen
   label: World Director & Lead Level Designer
   email: "eugennicolae.ionica@gmail.com"
-  location: Bucharest, Romania
+  location: "Bucharest, Romania"
   image: ""
   summary: Results driven, player focused World Creator, from design to aesthetics who owns each stage from concept to playtest to retaining audiences. From defining and implementing World design, to leading 16 people teams and growing employees to their full potential, I've shipped 4 AAA projects.
 
@@ -37,7 +37,7 @@ cv:
     Experience:
       - company: Off the Grid - Gunzilla Games
         position: World Director
-        location: ""
+        location: "Frankfurt, Germany"
         start_date: "2025-10"
         end_date: "Present"
         summary: Forward thinking, responsible for the Design Research and Implementation - from Idea all the way to Performance and Shipping.
@@ -48,7 +48,7 @@ cv:
 
       - company: Off the Grid - Gunzilla Games
         position: Lead Level Designer
-        location: ""
+        location: "Frankfurt, Germany"
         start_date: "2023-05"
         end_date: "2025-10"
         summary: Designed the main map - Teardrop - from early Blockout to Shipping and Post-Release design. 
@@ -60,7 +60,7 @@ cv:
 
       - company: "Star Wars: Outlaws - Ubisoft"
         position: Level Designer
-        location: ""
+        location: "Bucharest, Romania"
         start_date: "2022-04"
         end_date: "2023-05"
         summary: Managed a team of 6 Level Designers to create the Planet and Space of Akiva. 
@@ -71,7 +71,7 @@ cv:
 
       - company: "Rainbow Six: Extraction - Ubisoft"
         position: Associate Lead Level Designer
-        location: ""
+        location: "Bucharest, Romania"
         start_date: "2020-12"
         end_date: "2022-04"
         summary: "Finished and shipped Tom Clancy's Rainbow Six: Extraction with a team of 3 Level Designers."
@@ -81,7 +81,7 @@ cv:
 
       - company: "Rainbow Six: Extraction - Ubisoft"
         position: Level Designer
-        location: ""
+        location: "Bucharest, Romania"
         start_date: "2019-04"
         end_date: "2020-12"
         summary: Designed from Research to Shipping 2 maps - Casino and Nome. 
@@ -91,7 +91,7 @@ cv:
 
       - company: "Watch Dogs: Legion - Ubisoft"
         position: Level Designer
-        location: ""
+        location: "Bucharest, Romania"
         start_date: "2017-10"
         end_date: "2020-12"
         summary: Designed Micro Locations to match the gameplay theme and Art / World effort required. 

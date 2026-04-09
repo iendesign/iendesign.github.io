@@ -12,8 +12,9 @@ Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
-<iframe src="assets/pdf/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf" width="100%" height="600px"></iframe>
-
+<object data="assets/pdf/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf" type="application/pdf" width="100%" height="600px">
+    <p>PDF cannot be displayed. <a href="assets/pdf/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf">Download</a> instead.</p>
+</object>
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
