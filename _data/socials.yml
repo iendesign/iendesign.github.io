@@ -9,7 +9,7 @@ email: "eugennicolae.ionica@gmail.com" # your email address
 linkedin_username: iendesign # your LinkedIn username (e.g., iendesign if your LinkedIn profile URL is https://www.linkedin.com/in/iendesign/)
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: # can be png, svg, jpg
-  title:  # the name of the social media platform
-  url: # the URL to your profile on the social media platform
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#  logo: # can be png, svg, jpg
+#  title:  # the name of the social media platform
+#  url: # the URL to your profile on the social media platform
