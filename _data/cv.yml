@@ -1,8 +1,8 @@
 cv:
   name: Ionica Eugen
   label: World Director & Lead Level Designer
-  email: ""
-  location: ""
+  email: "eugennicolae.ionica@gmail.com"
+  location: "Bucharest, Romania"
   image: ""
   summary: Results driven, player focused World Creator, from design to aesthetics who owns each stage from concept to playtest to retaining audiences. From defining and implementing World design, to leading 16 people teams and growing employees to their full potential, I've shipped 4 AAA projects.
 
@@ -40,27 +40,32 @@ cv:
         location: ""
         start_date: "2025-10"
         end_date: "Present"
-        summary: Forward thinking, responsible for the Design Research and Implementation - from Idea all the way to Performance and Shipping. Directly owned and coordinated multiple departments including Environment Art and Level Design. Responsible for World Performance improvements.
+        summary: Forward thinking, responsible for the Design Research and Implementation - from Idea all the way to Performance and Shipping.
         highlights:
-          - Material instance reduction, Static Mesh optimization, World composition improvements
+          - Led Environment art and Level Design to improve ROI and on the Live Service development.
+          - Ensured healthy competition in Tournament style gameplay by identifying, implementing and iterating on the core World design pillars, leading to a significant increase in Player Retention and Engagement.
+          - Spearheaded the World Performance improvements to ship 60 FPS on XBoX Series S through Material Instance reduction, Static Mesh optimization and World composition improvements.
 
       - company: Off the Grid - Gunzilla Games
         position: Lead Level Designer
         location: ""
         start_date: "2023-05"
         end_date: "2025-10"
-        summary: Designed the main map - Teardrop - from early Blockout to Shipping and Post-Release design. Managed a team of 14 Level Designers, creating a delivery pipeline and process that shortened the Location building process from 4-6 months to 8 weeks.
+        summary: Designed the main map - Teardrop - from early Blockout to Shipping and Post-Release design. 
         highlights:
-          - Created all final metrics for Level and World design
-          - Led a team of 5 World Artists on Biome and Vegetation work
+          - Created a system for 14 Level Designers to build Locations by shortening the building process from 4-6 months to 8 weeks.
+          - Ensured a rigorous, balanced daily design check coupled with weekly playtests on work in progress areas.
+          - Created all final metrics for Level and World design.
+          - Led a team of 5 World Artists on Biome and Vegetation work - shipping multiple Biomes.
 
       - company: "Star Wars: Outlaws - Ubisoft"
         position: Level Designer
         location: ""
         start_date: "2022-04"
         end_date: "2023-05"
-        summary: Managed a team of 6 Level Designers to create the Planet and Space of Akiva. Personally designed the first iterations of the Planet, going from Research to Paper Design to Early rough Blockout.
+        summary: Managed a team of 6 Level Designers to create the Planet and Space of Akiva. 
         highlights:
+          - Designed the first iterations of the Planet, going from Research to Paper Design to Early rough Blockout.
           - Oversaw full Design of the capital city Myrra and the Locations on Akiva
           - Created the Design for Space - from Paper design to Whitebox
 
@@ -69,8 +74,9 @@ cv:
         location: ""
         start_date: "2020-12"
         end_date: "2022-04"
-        summary: "Finished and shipped Tom Clancy's Rainbow Six: Extraction with a team of 3 Level Designers. Triaged, Assigned and Fixed Quality and Design issues to ensure a qualitative Release."
+        summary: Finished and shipped Tom Clancy's Rainbow Six: Extraction with a team of 3 Level Designers.
         highlights:
+          - Triaged, assigned and fixed Quality and Design issues to ensure a qualitative Release.
           - Collaborated with multiple studios to ensure fixes were applied project-wide
 
       - company: "Rainbow Six: Extraction - Ubisoft"
@@ -78,19 +84,21 @@ cv:
         location: ""
         start_date: "2019-04"
         end_date: "2020-12"
-        summary: Designed from Research to Shipping 2 maps - Casino and Nome. Full design control over the Shape, Metrics, World Logic of the 2 maps.
+        summary: Designed from Research to Shipping 2 maps - Casino and Nome. 
         highlights:
-          - Led communication with Directors and Main Studio
+          - Full design control over the Shape, Metrics, World Logic of the 2 maps.
+          - Led communication with Directors and Main Studio.
 
       - company: "Watch Dogs: Legion - Ubisoft"
         position: Level Designer
         location: ""
         start_date: "2017-10"
         end_date: "2020-12"
-        summary: Designed Micro Locations to match the gameplay theme and Art / World effort required. Created from Early Blockout through redesign to final Shippable a Medium and a Large Location.
+        summary: Designed Micro Locations to match the gameplay theme and Art / World effort required. 
         highlights:
-          - Rotherthithe Shipyard and Tidis Tower
-          - Multiple Micro Locations from Parks to Parking
+          - Created from Early Blockout through redesign to final Shippable a Medium and a Large Location.
+          - Rotherthithe Shipyard and Tidis Tower.
+          - Multiple Micro Locations from Parks to Parking.
 
     Skills:
       - name: Game Engines
