@@ -12,7 +12,7 @@ Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
-<iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/assets/pdf/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf&embedded=true" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/assets/pdf/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf&embedded=true" width="140%" height="700px" frameborder="0"></iframe>
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
