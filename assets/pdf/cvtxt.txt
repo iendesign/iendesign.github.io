@@ -1,0 +1,76 @@
+CV
+About me
+Results driven, player focused World Creator, from design to aesthetics who owns each stage from concept to playtest to retaining audiences. From defining and implementing World design, to leading 16 people teams and growing employees to their full potential, I've shipped 4 AAA projects.
+Job experience
+World Director
+Off the Grid - Gunzilla Games
+October 2025 – Present
+- Forward  thinking, responsible for the Design Research and Implementation - from Idea all the way to Performance and Shipping.
+- Directly owned and coordinated multiple departments including Environment Art and Level Design.
+- Responsible for World Performance improvements - Material instance reduction, Static Mesh optimization, World composition improvements.
+
+LEAD LEVEL DESIGNER
+Off the Grid - Gunzilla Games
+May 2023 - October 2025
+- Designed the main map - Teardrop - from early Blockout to Shipping and Post-Release design.
+- Managed a team of 14 Level Designers, creating a delivery pipeline and process that shortened the Location building process from 4-6 months to 8 weeks, from Paper design to Whitebox.
+- Created all final metrics for Level and World design - Metrics, Space constraints, Logic of World Location design.
+- Ensured the collaboration with Art Direction, Production and Tech Art created clear guidelines - both creative and performance.
+- Led a team of 5 World Artists - pushed our Biome and Vegetation work, both in assets and compositions, creating playable and realistic Natural environments.
+
+
+Star Wars: Outlaws – Ubisoft
+April 2022 - May 2023
+- Managed a team of of 6 Level Designers to create the Planet and Space of Akiva - from Research phase to Whitebox in Star Wars: Outlaws.
+- Personally designed the first iterations of the Planet, going from Research to Paper Design to Early rough Blockout.
+- Directly worked with Tech Artists to design and implement constraints for Biome and Road generation.
+- Oversaw full Design of the capital city Myrra and the Locations on Akiva.
+- Created the Design for Space - from Paper design to Whitebox.
+
+
+ASSOCIATE LEAD LEVEL DESIGNER
+Rainbow Six: Extraction – Ubisoft
+December 2020 - April 2022
+- Finished and shipped with a team of 3LD Tom Clancy's Rainbow Six: Extraction
+- Triaged, Assigned and Fixed Quality and Design issues to ensure a qualitative Release.
+- Collaborated with multiple studios to ensure fixes were applied project-wide.
+
+
+LEVEL DESIGNER
+Rainbow Six: Extraction – Ubisoft
+April 2019 - December 2020
+- Designed from Research to Shipping 2 maps - Casino and Nome.
+- Full design control over the Shape, Metrics, World Logic of the 2 maps - implementation, art workflow, blockout, NPC logic.
+- Collaborated with 2 LDs as part of a team that I led in our communication with Directors and Main Studio.
+
+Watch Dogs: Legion – Ubisoft
+October 2017 - December 2020
+- Designed Micro Locations to match the gameplay theme and Art / World effort required.
+- Created from Early Blockout through a redesign to final Shippable a Medium and a Large Location - Rotherthithe Shipyard and Tidis tower.
+- Designed and implemented multiple Micro Location - from Parks to Parking.
+- Designed from Research to final Ship a Small location themed around a Boathouse Docks.
+
+TOOLS
+GAME ENGINES
+UNREAL ENGINE
+SNOWDROP
+ANVIL
+DUNIA
+
+3D MODELLING
+NURBS MODELLING
+3D MODELLING
+
+2D DESIGN
+INKSCAPE
+PHOTOSHOP
+MIRO
+
+EDUCATION
+KINGSTON UNIVERSITY
+MA GAME DESIGN
+2016-2017
+
+UAUIM ION MINCU
+MA INTERIOR ARCHITECTURE
+2010-2016
