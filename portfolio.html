@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Ionica Eugen</title>
+  <meta name="description" content="Portfolio gallery of game projects, map designs, and research documentation by Ionica Eugen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">IE<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p>A collection of my work across game projects, map designs, and research documentation.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container">
+      <h2 style="margin-bottom: 30px; color: var(--accent-cyan);">Game Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/project1.jpg" alt="Open World RPG Project" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Open World RPG</h3>
+            <p>AAA open world environment design with dynamic weather and day-night cycles.</p>
+            <span class="tag">Game Project</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/project2.jpg" alt="Puzzle Platformer" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Puzzle Platformer</h3>
+            <p>Indie puzzle platformer with innovative gravity mechanics and level design.</p>
+            <span class="tag">Game Project</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/project3.jpg" alt="Multiplayer FPS" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Multiplayer FPS</h3>
+            <p>Competitive multiplayer map design focusing on balanced gameplay flow.</p>
+            <span class="tag">Game Project</span>
+          </div>
+        </div>
+      </div>
+
+      <h2 style="margin: 50px 0 30px; color: var(--accent-cyan);">Map Designs</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/map1.jpg" alt="Urban Combat Map" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Urban Combat Arena</h3>
+            <p>Vertical urban environment designed for intense close-quarters combat.</p>
+            <span class="tag">Map Design</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/map2.jpg" alt="Fantasy World Map" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Fantasy World</h3>
+            <p>Large-scale fantasy world with diverse biomes and Points of Interest.</p>
+            <span class="tag">Map Design</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/map3.jpg" alt="Sci-Fi Station" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Sci-Fi Station</h3>
+            <p>Interior space station design with modular room layouts.</p>
+            <span class="tag">Map Design</span>
+          </div>
+        </div>
+      </div>
+
+      <h2 style="margin: 50px 0 30px; color: var(--accent-cyan);">Research Documents</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/doc1.jpg" alt="Player Flow Analysis" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Player Flow Analysis</h3>
+            <p>Comprehensive study of player movement patterns and engagement metrics.</p>
+            <span class="tag">Research Doc</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/doc2.jpg" alt="Level Design Patterns" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Level Design Patterns</h3>
+            <p>Documented patterns and best practices for creating engaging level experiences.</p>
+            <span class="tag">Research Doc</span>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/doc3.jpg" alt="Tutorial Design Guide" onerror="this.parentElement.style.display='none'">
+          <div class="portfolio-item-content">
+            <h3>Tutorial Design Guide</h3>
+            <p>In-depth analysis of effective player onboarding and tutorial systems.</p>
+            <span class="tag">Research Doc</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close">
+      <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev">
+      <svg viewBox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/></svg>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img">
+    </div>
+    <button class="lightbox-nav lightbox-next">
+      <svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+    </button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>Ionica Eugen</h4>
+          <p>Game Designer & Level Designer</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://linkedin.com" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </a>
+          <a href="assets/pdf/cv.pdf" download class="btn btn-primary">Download CV</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ionica Eugen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
