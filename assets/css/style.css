@@ -14,6 +14,17 @@
   --glow-orange: 0 0 30px rgba(255, 107, 53, 0.3);
 }
 
+[data-theme="light"] {
+  --bg-primary: #f5f5f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e8e8e8;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --glow-cyan: 0 0 20px rgba(0, 212, 255, 0.2);
+  --glow-orange: 0 0 20px rgba(255, 107, 53, 0.2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -103,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+[data-theme="light"] .header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -150,6 +166,24 @@ h1, h2, h3, h4, h5, h6 {
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--accent-cyan);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 8px;
+  border-radius: 8px;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  color: var(--accent-cyan);
+  background: var(--bg-tertiary);
 }
 
 .hamburger {
@@ -737,6 +771,11 @@ h1, h2, h3, h4, h5, h6 {
   .nav-links.active {
     transform: translateY(0);
     opacity: 1;
+  }
+
+  .theme-toggle {
+    align-self: flex-start;
+    margin-bottom: 10px;
   }
 
   .hero h1 {
