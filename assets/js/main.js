@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelector('.nav-links');
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxPdf = document.getElementById('lightbox-pdf');
   const lightboxClose = document.querySelector('.lightbox-close');
   const lightboxPrev = document.querySelector('.lightbox-prev');
   const lightboxNext = document.querySelector('.lightbox-next');
@@ -22,14 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (lightbox && portfolioItems.length > 0) {
     portfolioItems.forEach((item, index) => {
       item.addEventListener('click', () => {
-        const img = item.querySelector('img');
-        if (img) {
-          currentIndex = index;
-          lightboxImg.src = img.src;
-          lightboxImg.alt = img.alt;
-          lightbox.classList.add('active');
-          document.body.style.overflow = 'hidden';
-        }
+        currentIndex = index;
+        openLightbox(item);
       });
     });
 
@@ -59,20 +54,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function openLightbox(item) {
+    const type = item.getAttribute('data-type');
+    const src = item.getAttribute('data-src');
+
+    if (type === 'pdf') {
+      lightboxImg.style.display = 'none';
+      lightboxPdf.style.display = 'block';
+      lightboxPdf.src = src;
+    } else {
+      lightboxPdf.style.display = 'none';
+      lightboxPdf.src = '';
+      lightboxImg.style.display = 'block';
+      lightboxImg.src = src;
+    }
+
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
   function closeLightbox() {
     lightbox.classList.remove('active');
     document.body.style.overflow = '';
+    lightboxPdf.src = '';
+    lightboxImg.src = '';
   }
 
   function navigate(direction) {
     currentIndex += direction;
     if (currentIndex < 0) currentIndex = portfolioItems.length - 1;
     if (currentIndex >= portfolioItems.length) currentIndex = 0;
-    const img = portfolioItems[currentIndex].querySelector('img');
-    if (img) {
-      lightboxImg.src = img.src;
-      lightboxImg.alt = img.alt;
-    }
+    openLightbox(portfolioItems[currentIndex]);
   }
 
   const observerOptions = {
