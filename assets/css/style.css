@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: var(--transition);
   border: none;
   font-size: 1rem;
+  color: inherit;
 }
 
 .btn-primary {
@@ -72,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
   background: var(--accent-orange);
+  color: #000000;
   box-shadow: var(--glow-orange);
   transform: translateY(-2px);
 }
@@ -84,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-secondary:hover {
   background: var(--accent-cyan);
-  color: var(--bg-primary);
+  color: #000000;
   box-shadow: var(--glow-cyan);
   transform: translateY(-2px);
 }
