@@ -20,7 +20,14 @@
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="experience.html">Experience</a></li>
-          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li class="nav-dropdown">
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="portfolio.html#otg">Off the Grid - Gunzilla Games</a></li>
+              <li><a href="portfolio.html#r6e">Rainbow Six: Extraction - Ubisoft</a></li>
+              <li><a href="portfolio.html#shortworks">Short Works</a></li>
+            </ul>
+          </li>
           <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
           </button></li>
@@ -43,7 +50,7 @@
 
   <section class="page-content">
     <div class="container">
-      <h2 style="margin-bottom: 30px; color: var(--accent-cyan);">Off the Grid - Gunzilla Games</h2>
+      <h2 id="otg" style="margin-bottom: 30px; color: var(--accent-cyan); scroll-margin-top: 120px;">Off the Grid - Gunzilla Games</h2>
       <div class="portfolio-grid">
         <div class="portfolio-item" data-type="pdf" data-src="assets/img/portfolio/OTG_Portfolio.pdf">
           <img src="assets/img/Teardrop.png" alt="Off the Grid - Teardrop Map" style="width:100%;height:200px;object-fit:cover;">
@@ -55,7 +62,7 @@
         </div>
       </div>
 
-      <h2 style="margin: 50px 0 30px; color: var(--accent-cyan);">Rainbow Six: Extraction - Ubisoft</h2>
+      <h2 id="r6e" style="margin: 50px 0 30px; color: var(--accent-cyan); scroll-margin-top: 120px;">Rainbow Six: Extraction - Ubisoft</h2>
       <h3 style="margin-bottom: 20px; color: var(--text-secondary);">San Francisco Casino</h3>
       <div class="portfolio-grid">
         <div class="portfolio-item" data-type="pdf" data-src="assets/img/portfolio/1.R6E_MapResearch_SFCasino_IonicaEugen.pdf">
@@ -98,7 +105,7 @@
         </div>
       </div>
 
-      <h2 style="margin: 50px 0 30px; color: var(--accent-cyan);">Short Works</h2>
+      <h2 id="shortworks" style="margin: 50px 0 30px; color: var(--accent-cyan); scroll-margin-top: 120px;">Short Works</h2>
       <div class="portfolio-grid">
         <div class="portfolio-item" data-type="pdf" data-src="assets/img/portfolio/DesertDocks.pdf">
           <img src="assets/img/portfolio/DesertDocksPreview.png" alt="Desert Docks Preview" style="width:100%;height:200px;object-fit:cover;">
