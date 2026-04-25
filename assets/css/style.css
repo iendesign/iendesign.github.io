@@ -293,8 +293,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   flex-shrink: 0;
   object-fit: contain;
-  filter: blur(1px) brightness(0.8) var(--collage-filter, none);
-  opacity: 0.4;
+  filter: grayscale(100%) brightness(1.5) var(--collage-filter, none);
+  opacity: 0.8;
 }
 
 @keyframes collageScroll {
